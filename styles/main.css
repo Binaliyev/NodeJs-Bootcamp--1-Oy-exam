@@ -1,0 +1,169 @@
+/* Style oid propertylar shu fileda yoziladi  */
+@font-face {
+    font-family: "roboto-flex";
+    src: url(../assets/fonts/RobotoFlex-VariableFont_GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf);
+}
+
+body {
+    background: #131212;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "roboto-flex";
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    height: 8rem;
+    background: black;
+}
+
+.container {
+    width: 1440px;
+    height: auto;
+    margin: auto;
+}
+
+.header-inner {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-title-and-link-box {
+    width: 40%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-link {
+    padding: 0.6rem 1.5rem;
+    background: red;
+    border-radius: 10px;
+}
+
+.hero-inner {
+    margin: 3rem 0;
+    padding: 1rem;
+}
+
+.movie-card-list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.movie-card-item {
+    width: 22rem;
+    height: 53rem;
+    border-radius: 10px;
+    border: 2.5px solid white;
+    background: black;
+    margin: 1rem;
+}
+
+.movie-card-item:hover {
+    border: none;
+    background: red;
+    box-shadow: 0 4px 8px 0 #faf8f8, 0 6px 20px 0 #faf7f7;
+    transition: 0.8s linear;
+}
+
+.movie-img {
+    width: 100%;
+    height: 25rem;
+    border-radius: 10px;
+}
+
+.movie-title {
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 30px;
+}
+
+.movie-rating-and-year-box {
+    width: 50%;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.movie-rating-box,
+.movie-year-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18.5px;
+}
+
+.movie-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 1rem;
+}
+
+.movie-desc-box {
+    width: 18rem;
+    height: 6rem;
+    padding: 5px;
+    border: 2px solid white;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 18px;
+    overflow-y: scroll;
+}
+
+.movie-genres-box {
+    width: 18rem;
+    margin: 1rem auto;
+    font-size: 19px;
+    padding: 2px;
+    overflow-x: visible;
+    /* border: 1px solid red; */
+}
+
+.movie-btn-box {
+    margin: 1rem auto;
+    width: 90%;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailer-link,
+.save-btn {
+    padding: 0.6rem 1.5rem;
+    background: red;
+    border-radius: 10px;
+    border: none;
+}
+
+.header-link:hover,
+.trailer-link:hover {
+    background: black;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+
+.save-btn:active {
+    background: black;
+    border: 2px solid white;
+    transition: 0.2s;
+}
