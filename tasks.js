@@ -66,9 +66,9 @@
 
 // example: olma => olma olma olma
 
-// let str = prompt("str kiriting");
+// let stringValue = prompt("str kiriting");
 // let result = ""
-// for (let i = 0; i < 3; i++) {re+=str}
+// for (let i = 0; i < 3; i++) {re+=stringValue}
 // console.log(result);
 
 // Masala - 7
