@@ -68,7 +68,7 @@
 
 // let stringValue = prompt("str kiriting");
 // let result = ""
-// for (let i = 0; i < 3; i++) {re+=stringValue}
+// for (let i = 0; i < 3; i++) {result+=stringValue}
 // console.log(result);
 
 // Masala - 7
